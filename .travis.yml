@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - "6"
+env:
+  - TEST_SUITE=unit
+matrix:
+    include:
+        - node_js: "6"
+          env: TEST_SUITE=lint
+script: "npm run-script $TEST_SUITE"
