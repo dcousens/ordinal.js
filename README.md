@@ -3,7 +3,9 @@
 [![build status](https://secure.travis-ci.org/dcousens/ordinal.png)](http://travis-ci.org/dcousens/ordinal)
 [![Version](http://img.shields.io/npm/v/ordinal.svg)](https://www.npmjs.org/package/ordinal)
 
-Module to provide the ordinal letters following a numeral.
+Module to provide the English ordinal letters following a numeral.
+
+If other languages are required,  [please submit an issue](https://github.com/dcousens/ordinal/issues/new).
 
 
 ## Examples
