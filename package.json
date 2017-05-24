@@ -1,6 +1,6 @@
 {
   "name": "ordinal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module to provide the ordinal letters following a numeral",
   "main": "index.js",
   "scripts": {
