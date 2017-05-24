@@ -31,7 +31,7 @@ To get just the indicator:
 
 ``` javascript
 var ordinal = require('ordinal')
-var indicator = ordinal.indicator
+var indicator = require('ordinal/indicator')
 
 indicator(1) // 'st'
 indicator(2) // 'nd'
