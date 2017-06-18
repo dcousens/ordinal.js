@@ -8,6 +8,21 @@ Module to provide the English ordinal letters following a numeral.
 If other languages are required,  [please submit an issue](https://github.com/dcousens/ordinal/issues/new).
 
 
+## Install
+
+### NPM
+
+```js
+npm install --save ordinal
+```
+
+### Yarn
+
+```js
+yarn add ordinal
+```
+
+
 ## Examples
 Numbers only, anything else will throw a `TypeError`.
 
