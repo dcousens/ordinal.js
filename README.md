@@ -10,13 +10,13 @@ If other languages are required,  [please submit an issue](https://github.com/dc
 
 ## Install
 
-### NPM
+### npm
 
 ```js
 npm install --save ordinal
 ```
 
-### Yarn
+### yarn
 
 ```js
 yarn add ordinal
@@ -47,7 +47,6 @@ ordinal(24) // '24th'
 To get just the indicator:
 
 ``` javascript
-var ordinal = require('ordinal')
 var indicator = require('ordinal/indicator')
 
 indicator(1) // 'st'
