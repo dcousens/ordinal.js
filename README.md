@@ -64,4 +64,4 @@ indicator(23) // 'rd'
 indicator(24) // 'th'
 ```
 
-## License [ISC](LICENSE)
+## License [MIT](LICENSE)
