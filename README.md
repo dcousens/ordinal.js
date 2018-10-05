@@ -47,6 +47,26 @@ ordinal(24) // '24th'
 To get just the indicator:
 
 ``` javascript
+var ordinal = require('ordinal')
+
+ordinal(1, { suffixOnly: true }) // 'st'
+ordinal(2, { suffixOnly: true }) // 'nd'
+ordinal(3, { suffixOnly: true }) // 'rd'
+ordinal(4, { suffixOnly: true }) // 'th'
+
+ordinal(11, { suffixOnly: true }) // 'th'
+ordinal(12, { suffixOnly: true }) // 'th'
+ordinal(13, { suffixOnly: true }) // 'th'
+
+ordinal(21, { suffixOnly: true }) // 'st'
+ordinal(22, { suffixOnly: true }) // 'nd'
+ordinal(23, { suffixOnly: true }) // 'rd'
+ordinal(24, { suffixOnly: true }) // 'th'
+```
+
+You can also import `indicator` directly:
+
+``` javascript
 var indicator = require('ordinal/indicator')
 
 indicator(1) // 'st'
