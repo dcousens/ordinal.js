@@ -16,3 +16,11 @@ test('throws on non-numbers', function (t) {
   }, /Expected Number, got string foo/)
   t.end()
 })
+
+test('returns suffix only', function (t) {
+  fixtures.forEach(function (x) {
+    t.equal(ordinal(x.i, { suffixOnly: true }), ordinal.indicator(x.i), x.i + ' === ' + ordinal.indicator(x.i))
+  })
+
+  t.end()
+})
