@@ -20,6 +20,22 @@ test('returns negative ordinal numbers', function (t) {
   t.end()
 })
 
+test('returns special numbers', function (t) {
+  [Infinity, -Infinity].forEach(function (i) {
+    t.equal(ordinal(i), i, i + ' === ' + i)
+  })
+
+  t.end()
+})
+
+test('returns not numbers numbers', function (t) {
+  [NaN, -NaN].forEach(function (i) {
+    t.ok(isNaN(ordinal(i)), i + ' is a "not a number"')
+  })
+
+  t.end()
+})
+
 test('throws on non-numbers', function (t) {
   t.throws(function () {
     ordinal('foo')
