@@ -10,6 +10,16 @@ test('returns ordinal numbers', function (t) {
   t.end()
 })
 
+test('returns negative ordinal numbers', function (t) {
+  fixtures.forEach(function (x) {
+    x.i === 0
+      ? t.equal(ordinal(x.i), x.ordinal, x.i + ' === ' + x.ordinal)
+      : t.equal(ordinal(-x.i), '-' + x.ordinal, x.i + ' === ' + x.ordinal)
+  })
+
+  t.end()
+})
+
 test('throws on non-numbers', function (t) {
   t.throws(function () {
     ordinal('foo')
