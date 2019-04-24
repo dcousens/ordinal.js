@@ -1,1 +1,1 @@
-export default function indicator(i:number): string;
+export default function indicator (i: number): string
