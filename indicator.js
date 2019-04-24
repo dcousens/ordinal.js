@@ -1,4 +1,5 @@
 module.exports = function indicator (i) {
+  i = Math.abs(i)
   var cent = i % 100
   if (cent >= 10 && cent <= 20) return 'th'
   var dec = i % 10
