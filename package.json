@@ -1,13 +1,20 @@
 {
   "name": "ordinal",
   "version": "1.0.3",
-  "description": "Module to provide the ordinal letters following a numeral",
+  "description": "A compact module to provide the ordinal letters following a numeral",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "test": "npm run lint && npm run unit",
-    "unit": "tape test/*.js"
+    "standard": "standard",
+    "test": "tape test/*.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcousens/ordinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcousens/ordinal/issues"
+  },
+  "homepage": "https://github.com/dcousens/ordinal",
   "keywords": [
     "ordinal",
     "number",
@@ -22,18 +29,10 @@
     "second",
     "third"
   ],
-  "homepage": "https://github.com/dcousens/ordinal",
-  "bugs": {
-    "url": "https://github.com/dcousens/ordinal/issues"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dcousens/ordinal.git"
-  },
   "author": "Daniel Cousens",
+  "license": "MIT",
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.6.0"
+    "tape": "^5.0.0"
   }
 }
