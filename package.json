@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "A compact module to provide the ordinal letters following a numeral",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "standard": "standard",
     "test": "tape test/*.js"
