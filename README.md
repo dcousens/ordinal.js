@@ -1,26 +1,9 @@
 # ordinal
-
-[![build status](https://secure.travis-ci.org/dcousens/ordinal.png)](http://travis-ci.org/dcousens/ordinal)
 [![Version](https://img.shields.io/npm/v/ordinal.svg)](https://www.npmjs.org/package/ordinal)
 
-Module to provide the English ordinal letters following a numeral.
+A compact module to provide the English ordinal letters following a numeral.
 
-If other languages are required,  [please submit an issue](https://github.com/dcousens/ordinal/issues/new).
-
-
-## Install
-
-### npm
-
-```js
-npm install --save ordinal
-```
-
-### yarn
-
-```js
-yarn add ordinal
-```
+If other languages are required, [please submit an issue](https://github.com/dcousens/ordinal/issues/new).
 
 
 ## Examples
@@ -64,4 +47,4 @@ indicator(23) // 'rd'
 indicator(24) // 'th'
 ```
 
-## License [MIT](LICENSE)
+## LICENSE [MIT](LICENSE)
