@@ -1,4 +1,4 @@
-var indicator = require('./indicator')
+const indicator = require('./indicator')
 
 function ordinal (i) {
   if (typeof i !== 'number') throw new TypeError('Expected Number, got ' + (typeof i) + ' ' + i)
