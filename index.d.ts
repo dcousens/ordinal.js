@@ -1,4 +1,4 @@
-import indicator, { OrdinalPrefix } from './indicator'
-export { indicator, OrdinalPrefix }
+import indicator, { OrdinalSuffix } from './indicator'
+export { indicator, OrdinalSuffix }
 
-export default function ordinal <I extends number>(i: I): `${I}${OrdinalPrefix}`
+export default function ordinal <I extends number>(i: I): `${I}${OrdinalSuffix}`
