@@ -1,1 +1,3 @@
-export default function indicator (i: number): 'th' | 'st' | 'nd' | 'rd'
+export type OrdinalPrefix = 'th' | 'st' | 'nd' | 'rd';
+
+export default function indicator (i: number): OrdinalPrefix;
